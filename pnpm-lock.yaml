@@ -33,8 +33,8 @@ dependencies:
     specifier: 13.4.19
     version: 13.4.19(eslint@8.48.0)(typescript@5.2.2)
   fe-enigma-kynareth:
-    specifier: ^0.2.9
-    version: 0.2.9
+    specifier: ^0.2.10
+    version: 0.2.10
   next:
     specifier: 13.4.19
     version: 13.4.19(react-dom@18.2.0)(react@18.2.0)
@@ -1232,14 +1232,14 @@ packages:
     dependencies:
       reusify: 1.0.4
 
-  /fe-enigma-kynareth@0.2.9:
-    resolution: {integrity: sha512-woUEkbwS529nKfWjE9Q2E4zHzP3sTsuJUb6yryv8CimDezX2NVh7r/7Di8m8G2xqmrgXVNa9pL94u6RMTg7ZWw==}
+  /fe-enigma-kynareth@0.2.10:
+    resolution: {integrity: sha512-sYY+XPXnv9OLLdeeA/n2uNccUGuHThkbWijrw7INlOdWJfPZxDY1Sb1NoNj2t3pqf1P2o0jwYnq4tQ4cqv2xkQ==}
     dependencies:
-      fe-enigma: 0.0.12
+      fe-enigma: 0.0.13
     dev: false
 
-  /fe-enigma@0.0.12:
-    resolution: {integrity: sha512-j3ns3EG28P+MONv6XoTZKKBc4jMGoTsEPQuvH4ykj/yCinxjA489QMdl0ixneKrUOs1b57c+ZmIn2Gf2K5NMug==}
+  /fe-enigma@0.0.13:
+    resolution: {integrity: sha512-mPgtfL7yvFmisKHs+zudISCm1QxHhWP3skrT9Yn9MWVvfBFKXLo4cJflrhFtvcYnOk8AhGIkunRFQgpJuvvixA==}
     dev: false
 
   /file-entry-cache@6.0.1:
