@@ -11,7 +11,7 @@ export default function Page() {
   const [eState, setEState] = useState(null)
 
   if (typeof window !== 'undefined') {
-    global.__use_react__ = true
+    (window as any).__use_react__ = true
     const kynareth = new Kynareth()
     kynareth.setAdapter(axios)
     kynareth.setStateSetter(setEState)
