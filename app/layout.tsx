@@ -1,5 +1,6 @@
 import React from "react"
 import "./globals.css"
+import { Analytics } from '@vercel/analytics/react';
 
 export default function RootLayout({
   children,
@@ -17,6 +18,7 @@ export default function RootLayout({
         <div className="flex justify-center">
           <div className="artboard artboard-horizontal phone-4 mt-10">{children}</div>
         </div>
+        <Analytics />
       </body>
     </html>
   )
